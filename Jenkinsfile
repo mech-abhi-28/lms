@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         // More detail: 
-        // https://jenkins.io/doc/book/pipeline/jenkinsfile/#usernames-and-passwords
+        // https://jenkins.io/doc/book/pipeline/jenkinsfile/#Abhi@abhi-and-12345678
         NEXUS_CRED = credentials('nexus')
    }
 
